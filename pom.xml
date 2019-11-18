@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.host.url>http://35.182.160.84/:9000</sonar.host.url>
 	</properties>
 
 	<dependencies>
@@ -84,10 +85,12 @@
 	</dependencies>
 	
         <distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <url>http://13.126.11.147:8081/nexus/content/repositories/nexus/</url>
-  </snapshotRepository>
+
+ <snapshotRepository>
+        <id>jfrog</id>
+        <name>ip-172-31-14-233.ca-central-1.compute.internal-snapshots</name>
+        <url>http://35.183.116.161:8081/artifactory/ingrepo</url>
+   </snapshotRepository>
 </distributionManagement>
 
 
