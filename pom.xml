@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.host.url>http://99.79.65.178:9000</sonar.host.url>
 		
 	</properties>
 
@@ -88,7 +89,7 @@
 
  <snapshotRepository>
     <id>nexus</id>
-    <url>http://15.222.6.110:8081/nexus/content/repositories/snapshots</url>
+    <url>http://99.79.65.178:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
