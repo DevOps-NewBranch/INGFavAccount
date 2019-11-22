@@ -87,10 +87,9 @@
         <distributionManagement>
 
  <snapshotRepository>
-        <id>jfrog</id>
-        <name>ip-172-31-14-233.ca-central-1.compute.internal-snapshots</name>
-        <url>http://35.183.116.161:8081/artifactory/ingrepo</url>
-   </snapshotRepository>
+    <id>nexus</id>
+    <url>http://15.222.6.110:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
 </distributionManagement>
 
 
